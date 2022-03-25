@@ -1,0 +1,281 @@
+<resources>
+    <string name="app_name">handyman-android-app</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="menu_categories">Categories</string>
+    <string name="n_categories_title">Categories</string>
+    <string name="n_category_image_desc">category_image</string>
+    <string name="n_category_plumber">Plumber</string>
+    <string name="n_category_masons">Masons</string>
+    <string name="n_category_painter">Painter</string>
+    <string name="n_category_welding">Welding</string>
+    <string name="n_category_carpenters">Carpenters</string>
+    <string name="n_category_electricians">Electricians</string>
+    <string name="n_category_cleaners">Cleaners</string>
+    <string name="n_category_carpenter">Carpenter</string>
+
+    <string name="r_tv_signupTitle">Sign up</string>
+    <string name="r_tv_signup_firstName">First Name</string>
+    <string name="r_tv_signup_lastName">Last Name</string>
+    <string name="r_tv_signup_email">Email</string>
+    <string name="r_tv_signup_phone">Phone</string>
+    <string name="r_tv_signup_location">Location</string>
+    <string name="r_tv_signup_pw">Password</string>
+    <string name="r_tv_signup_rePw">Re-enter Password</string>
+    <string name="r_et_signup_firstName">enter first name</string>
+    <string name="r_et_signup_lastName">enter last name</string>
+    <string name="r_et_signup_email">enter email address</string>
+    <string name="r_et_signup_phone">enter 10 digit phone number</string>
+    <string name="r_et_signup_pw">Enter a strong password</string>
+    <string name="r_et_signup_rePw">re-enter the password</string>
+    <string name="r_btn_signup_createAcc">Create Account</string>
+    <string name="r_tv_signup_alrdyHvAcc">Have an account? Login</string>
+    <string name="r_tv_loginTitle">Sign in</string>
+    <string name="r_et_login_email2">Email Address</string>
+    <string name="r_et_login_pw">Password</string>
+    <string name="r_btn_login_login">LOGIN</string>
+    <string name="r_tv_login_forgotPw">Forgot Password?</string>
+    <string name="r_tv_login_DntHvAcc">Don\'t have an account?</string>
+    <string name="r_tv_login_reg">Register!</string>
+    <string name="r_login_logo">logo</string>
+
+    <string name="r_spin_signup_role">Role</string>
+    <string name="r_tv_signup_role">Role</string>
+
+
+    <string name="p_tv_makeResponse_category">Category</string>
+    <string name="p_tv_makeResponse_title">Title</string>
+    <string name="p_tv_makeResponse_description">Description</string>
+    <string name="p_tv_makeResponse_location">Location</string>
+    <string name="p_et_makeResponse_title">Enter a title</string>
+    <string name="p_et_makeResponse_description">Enter a good description</string>
+    <string name="p_btn_makeResponse_btn">Make Response</string>
+    <string name="p_tv_makeResponse_topic">Make Response</string>
+    <string name="p_tv_viewRequest_topic">View Request</string>
+    <string name="p_tv_viewRequest_name">Customer Name</string>
+    <string name="p_tv_viewRequest_category">Category</string>
+    <string name="p_tv_viewRequest_title">Title</string>
+    <string name="p_tv_viewRequest_description">Description</string>
+    <string name="p_tv_viewRequest_location">Location</string>
+    <string name="p_btn_viewRequest_btn">RESPONSE</string>
+    <string name="p_tv_viewResponse_topic">Response</string>
+    <string name="p_tv_viewResponse_name">Customer Name</string>
+    <string name="p_tv_viewResponse_category">Category</string>
+    <string name="p_tv_viewResponse_title">Title</string>
+    <string name="p_tv_viewResponse_description">Description</string>
+    <string name="p_tv_viewResponse_location">Location</string>
+    <string name="p_btn_viewResponse_updateBtn">UPDATE</string>
+    <string name="p_btn_viewResponse_deleteBtn">DELETE</string>
+    <string name="p_tv_editResponse_topic">Edit Response</string>
+    <string name="p_tv_editResponse_category">Category</string>
+    <string name="p_tv_editResponse_title">Title</string>
+    <string name="p_tv_editResponse_description">Description</string>
+    <string name="p_tv_editResponse_location">Location</string>
+    <string name="p_btn_editResponse_btn">UPDATE RESPONSE</string>
+
+
+    <string name="n_btn_request_service">Request Service</string>
+    <string name="n_request_services_title">Request Services</string>
+    <string name="n_request_services_description">Description</string>
+    <string name="n_request_services_location">Location</string>
+    <string name="n_request_services_description_hint">I need to construct a wall urgently</string>
+    <string name="n_request_services_date_hint">2020/10/10</string>
+    <string name="n_request_service_scheduled_date">Scheduled Date</string>
+    <string name="n_view_gig_title">View Gig</string>
+    <string name="n_view_gig_category">Category</string>
+    <string name="n_view_gig_gig_title">Title</string>
+    <string name="n_view_gig_title_fill">Experienced carpenter</string>
+    <string name="n_view_gig_phone_no">Phone no.</string>
+    <string name="n_view_gig_phone_fill">071345647</string>
+    <string name="n_view_gig_location">Location</string>
+    <string name="n_view_gig_location_fill">Colombo</string>
+    <string name="n_view_gig_email">Email</string>
+    <string name="n_view_gig_email_fill">nimal@gmail.com</string>
+    <string name="n_view_gig_description">Description</string>
+    <string name="n_view_gig_description_fill">This is the description</string>
+
+
+    <string name="r_tv_createGigTitle">Create New Gig</string>
+    <string name="r_tv_createGig_title">Title</string>
+    <string name="r_et_crateGig_title">I do ....</string>
+    <string name="r_tv_crateGig_category">Category</string>
+    <string name="r_tv_crateGig_description">Description</string>
+    <string name="r_et_crateGig_description">Enter a description not more than 100 characters</string>
+    <string name="r_btn_createGig_create">Create Gig</string>
+
+
+    <string name="r_tv_activeGigsTitle">Active Gigs</string>
+    <string name="r_btn_activeGigs_createNew">CREATE NEW</string>
+
+
+    <string-array name="location_spinner">
+        <item>Select a location</item>
+        <item>Ampara</item>
+        <item>Anuradhapura</item>
+        <item>Badulla	</item>
+        <item>Batticaloa</item>
+        <item>Colombo</item>
+        <item>Galle	</item>
+        <item>Gampaha</item>
+        <item>Hambantota</item>
+        <item>Jaffna</item>
+        <item>Kalutara</item>
+        <item>Kandy</item>
+        <item>Kegalle	</item>
+        <item>Kilinochchi</item>
+        <item>Kurunegala</item>
+        <item>Mannar</item>
+        <item>Matale</item>
+        <item>Matara</item>
+        <item>Moneragala</item>
+        <item>Mullaitivu</item>
+        <item>Nuwara Eliya</item>
+        <item>Polonnaruwa</item>
+        <item>Puttalam</item>
+        <item>Ratnapura</item>
+        <item>Trincomalee</item>
+        <item>Vavuniya</item>
+    </string-array>
+
+    <string-array name="Role_spinner">
+        <item>I want to hire</item>
+        <item>I want to work</item>
+    </string-array>
+
+
+    <string-array name="p_makeResponse_category">
+        <item>Select Category</item>
+        <item>Mason</item>
+        <item>Carpenter</item>
+        <item>Electrician</item>
+        <item>Cleaner</item>
+        <item>Contractor</item>
+        <item>Painter</item>
+    </string-array>
+    <string-array name="p_makeResponse_location">
+        <item>Select a location</item>
+        <item>Kalutara</item>
+        <item>Ampara</item>
+        <item>Anuradhapura</item>
+        <item>Badulla	</item>
+        <item>Batticaloa</item>
+        <item>Colombo</item>
+        <item>Galle	</item>
+        <item>Gampaha</item>
+        <item>Hambantota</item>
+        <item>Jaffna</item>
+        <item>Kandy</item>
+        <item>Kegalle	</item>
+        <item>Kilinochchi</item>
+        <item>Kurunegala</item>
+        <item>Mannar</item>
+        <item>Matale</item>
+        <item>Matara</item>
+        <item>Moneragala</item>
+        <item>Mullaitivu</item>
+        <item>Nuwara Eliya</item>
+        <item>Polonnaruwa</item>
+        <item>Puttalam</item>
+        <item>Ratnapura</item>
+        <item>Trincomalee</item>
+        <item>Vavuniya</item>
+    </string-array>
+    <string-array name="p_editResponse_category">
+        <item>Mason</item>
+        <item>Carpenter</item>
+        <item>Electrician</item>
+        <item>Cleaner</item>
+        <item>Contractor</item>
+        <item>Painter</item>
+    </string-array>
+    <string-array name="p_editResponse_location">
+        <item>Kalutara</item>
+        <item>Ampara</item>
+        <item>Anuradhapura</item>
+        <item>Badulla</item>
+        <item>Batticaloa</item>
+        <item>Colombo</item>
+        <item>Galle</item>
+        <item>Gampaha</item>
+        <item>Hambantota</item>
+        <item>Jaffna</item>
+        <item>Kandy</item>
+        <item>Kegalle</item>
+        <item>Kilinochchi</item>
+        <item>Kurunegala</item>
+        <item>Mannar</item>
+        <item>Matale</item>
+        <item>Matara</item>
+        <item>Moneragala</item>
+        <item>Mullaitivu</item>
+        <item>Nuwara Eliya</item>
+        <item>Polonnaruwa</item>
+        <item>Puttalam</item>
+        <item>Ratnapura</item>
+        <item>Trincomalee</item>
+        <item>Vavuniya</item>
+
+    </string-array>
+
+
+    <string-array name="Gig_category">
+        <item>Plumber</item>
+        <item>Carpenter</item>
+        <item>Mason</item>
+        <item>Painter</item>
+        <item>Welding</item>
+        <item>Cleaners</item>
+        <item>Electricians</item>
+    </string-array>
+
+
+    <string-array name="n_request_services_location">
+        <item>Select a location</item>
+        <item>Ampara</item>
+        <item>Anuradhapura</item>
+        <item>Badulla	</item>
+        <item>Batticaloa</item>
+        <item>Colombo</item>
+        <item>Galle	</item>
+        <item>Gampaha</item>
+        <item>Hambantota</item>
+        <item>Jaffna</item>
+        <item>Kalutara</item>
+        <item>Kandy</item>
+        <item>Kegalle	</item>
+        <item>Kilinochchi</item>
+        <item>Kurunegala</item>
+        <item>Mannar</item>
+        <item>Matale</item>
+        <item>Matara</item>
+        <item>Moneragala</item>
+        <item>Mullaitivu</item>
+        <item>Nuwara Eliya</item>
+        <item>Polonnaruwa</item>
+        <item>Puttalam</item>
+        <item>Ratnapura</item>
+        <item>Trincomalee</item>
+        <item>Vavuniya</item>
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="p_tv_update_response_topic">Edit Response</string>
+    <string name="p_tv_update_response_category">Category</string>
+    <string name="p_tv_update_response_title">Title</string>
+    <string name="p_tv_update_response_description">Description</string>
+    <string name="p_tv_update_response_location">Location</string>
+    <string name="p_btn_update_response_btn">UPDATE</string>
+    <string name="p_tv_responces_topic">Responces</string>
+
+</resources>

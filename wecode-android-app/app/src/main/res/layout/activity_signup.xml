@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_signup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signupActivity">
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/navbar">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="601dp"
+            android:background="@drawable/back_trans"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/r_tv_signupTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="27dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/r_tv_signupTitle"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/constraintLayout3"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="592dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/r_tv_signup_firstName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="@string/r_tv_signup_firstName"
+                        android:textColor="@color/Orange"
+                        android:textSize="27sp" />
+
+                    <TextView
+                        android:id="@+id/r_tv_signup_lastName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="@string/r_tv_signup_lastName"
+                        android:textColor="@color/Orange"
+                        android:textSize="27sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/r_et_signup_firstName"
+                        android:layout_width="150dp"
+                        android:layout_height="37dp"
+                        android:layout_margin="16dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/field_gray"
+                        android:ems="10"
+                        android:hint="@string/r_et_signup_firstName"
+                        android:importantForAutofill="no"
+                        android:inputType="textPersonName"
+                        android:paddingLeft="10dp" />
+
+                    <EditText
+                        android:id="@+id/r_et_signup_lastName"
+                        android:layout_width="150dp"
+                        android:layout_height="37dp"
+                        android:layout_margin="16dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/field_gray"
+                        android:ems="10"
+                        android:hint="@string/r_et_signup_lastName"
+                        android:inputType="textPersonName"
+                        android:paddingLeft="10dp"
+                        android:importantForAutofill="no" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/r_tv_signup_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/r_tv_signup_email"
+                    android:textColor="@color/Orange"
+                    android:textSize="27sp" />
+
+                <EditText
+                    android:id="@+id/r_et_signup_email2"
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp"
+                    android:layout_margin="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    android:background="@drawable/field_gray"
+                    android:ems="10"
+                    android:hint="@string/r_et_signup_email"
+                    android:inputType="textEmailAddress"
+                    android:paddingLeft="10dp"
+                    android:importantForAutofill="no" />
+
+                <TextView
+                    android:id="@+id/r_tv_signup_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/r_tv_signup_phone"
+                    android:textColor="@color/Orange"
+                    android:textSize="27sp" />
+
+                <EditText
+                    android:id="@+id/r_et_signup_phone2"
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp"
+                    android:layout_margin="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    android:background="@drawable/field_gray"
+                    android:ems="10"
+                    android:hint="@string/r_et_signup_phone"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="10dp"
+                    android:importantForAutofill="no" />
+
+                <TextView
+                    android:id="@+id/r_tv_signup_location"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/r_tv_signup_location"
+                    android:textColor="@color/Orange"
+                    android:textSize="27sp" />
+
+                <Spinner
+                    android:id="@+id/r_spin_signup_location"
+                    android:layout_width="267dp"
+                    android:layout_height="37dp"
+                    android:layout_margin="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:background="@drawable/rectt"
+                    android:entries="@array/location_spinner"/>
+
+                <TextView
+                    android:id="@+id/r_tv_signup_role"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/r_tv_signup_role"
+                    android:textColor="@color/Orange"
+                    android:textSize="27sp" />
+
+                <Spinner
+                    android:id="@+id/r_spin_signup_role"
+                    android:layout_width="267dp"
+                    android:layout_height="37dp"
+                    android:layout_margin="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:background="@drawable/rectt"
+                    android:entries="@array/Role_spinner" />
+
+
+
+                <TextView
+                    android:id="@+id/r_tv_signup_pw"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/r_tv_signup_pw"
+                    android:textColor="@color/Orange"
+                    android:textSize="27sp" />
+
+                <EditText
+                    android:id="@+id/r_et_signup_pw"
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp"
+                    android:layout_margin="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    android:background="@drawable/field_gray"
+                    android:ems="10"
+                    android:hint="@string/r_et_signup_pw"
+                    android:inputType="textPassword"
+                    android:paddingLeft="10dp"
+                    android:importantForAutofill="no" />
+
+                <TextView
+                    android:id="@+id/r_tv_signup_rePw"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/r_tv_signup_rePw"
+                    android:textColor="@color/Orange"
+                    android:textSize="27sp" />
+
+                <EditText
+                    android:id="@+id/r_et_signup_rePw"
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp"
+                    android:layout_margin="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    android:background="@drawable/field_gray"
+                    android:ems="10"
+                    android:hint="@string/r_et_signup_rePw"
+                    android:inputType="textPassword"
+                    android:paddingLeft="10dp"
+                    android:importantForAutofill="no" />
+
+                <Button
+                    android:id="@+id/r_btn_signup_createAcc"
+                    android:layout_width="379dp"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="13dp"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/fields"
+                    android:fontFamily="sans-serif-black"
+                    android:text="@string/r_btn_signup_createAcc"
+                    app:backgroundTint="@color/Orange" />
+
+                <TextView
+                    android:id="@+id/r_tv_signup_alrdyHvAcc"
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp"
+                    android:layout_marginStart="105dp"
+                    android:layout_marginLeft="105dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="28dp"
+                    android:text="@string/r_tv_signup_alrdyHvAcc"
+                    android:textColor="@color/navbar"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#002B57"
+    android:id="@+id/activity_calculator"
+    tools:context=".Calculator">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Profit Calculator"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.097"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="601dp"
+        android:background="@drawable/back_trans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:context=".MainActivity">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:id="@+id/description_field"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="Title"
+                    android:textColor="@color/Orange"
+                    android:textSize="27sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/calculator_et_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:ems="10"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="top"
+                    android:background="@drawable/background"
+                    android:hint="Construction of wall at Colombo"
+                    android:padding="10dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:paddingTop="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="Income"
+                    android:textColor="@color/Orange"
+                    android:textSize="27sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/calculator_et_income"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:ems="10"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="top"
+                    android:background="@drawable/background"
+                    android:padding="10dp"
+                    android:hint="35900.00"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:paddingTop="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="Expenses"
+                    android:textColor="@color/Orange"
+                    android:textSize="27sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/calculator_et_expenses"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:ems="10"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="top"
+                    android:background="@drawable/background"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:hint="14900.00"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:paddingTop="10dp" />
+
+
+                <Button
+                    android:id="@+id/req_service"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="13dp"
+                    android:background="@drawable/background_button"
+                    android:backgroundTint="@color/Orange"
+                    android:text="Calculate"
+                    android:onClick="loadNote"
+                    app:backgroundTint="@color/Orange" />
+
+                <!--                    <TextView-->
+                <!--                        android:id="@+id/calculator_et_profit"-->
+                <!--                        android:layout_width="match_parent"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:layout_marginTop="27dp"-->
+                <!--                        android:ems="10"-->
+                <!--                        android:fontFamily="sans-serif-light"-->
+                <!--                        android:gravity="top"-->
+                <!--                        android:background="@drawable/background"-->
+                <!--                        android:paddingVertical="10dp"-->
+                <!--                        android:paddingLeft="140dp"-->
+                <!--                        android:textStyle="bold"-->
+                <!--                        android:text="21000.00"-->
+                <!--                        android:textSize="20sp"-->
+                <!--                        android:textColor="@color/black"-->
+                <!--                        app:layout_constraintStart_toStartOf="parent"-->
+                <!--                        app:layout_constraintTop_toTopOf="parent"-->
+                <!--                        tools:paddingTop="10dp" />-->
+
+                <!--                    <TextView-->
+                <!--                        android:id="@+id/calculator_et_profit_percentage"-->
+                <!--                        android:layout_width="match_parent"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:layout_marginTop="7dp"-->
+                <!--                        android:ems="10"-->
+                <!--                        android:fontFamily="sans-serif-light"-->
+                <!--                        android:gravity="top"-->
+                <!--                        android:background="@drawable/background"-->
+                <!--                        android:paddingVertical="10dp"-->
+                <!--                        android:paddingLeft="140dp"-->
+                <!--                        android:textStyle="bold"-->
+                <!--                        android:text="58.49%"-->
+                <!--                        android:textSize="20sp"-->
+                <!--                        android:textColor="@color/black"-->
+                <!--                        app:layout_constraintStart_toStartOf="parent"-->
+                <!--                        app:layout_constraintTop_toTopOf="parent"-->
+                <!--                        tools:paddingTop="10dp" />-->
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="50dp"
+                            android:layout_column="1"
+                            android:layout_marginTop="20dp"
+                            android:fontFamily="sans-serif-light"
+                            android:paddingTop="4dp"
+                            android:text="Profit"
+                            android:textColor="@color/blue"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/calculator_et_profit"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="27dp"
+                            android:ems="10"
+                            android:fontFamily="sans-serif-light"
+                            android:gravity="top"
+                            android:background="@drawable/background"
+                            android:paddingVertical="10dp"
+                            android:paddingLeft="20dp"
+                            android:textStyle="bold"
+                            android:textSize="20sp"
+                            android:textColor="@color/black"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:paddingTop="10dp" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:layout_gravity="bottom"
+                            android:fontFamily="sans-serif-light"
+                            android:text="Percentage"
+                            android:textColor="@color/blue"
+                            android:textSize="24sp"
+                            android:textStyle="bold"
+                            android:paddingBottom="9dp"/>
+
+                        <TextView
+                            android:id="@+id/calculator_et_profit_percentage"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:ems="10"
+                            android:fontFamily="sans-serif-light"
+                            android:gravity="top"
+                            android:background="@drawable/background"
+                            android:paddingVertical="10dp"
+                            android:paddingLeft="20dp"
+                            android:textStyle="bold"
+                            android:textSize="20sp"
+                            android:textColor="@color/black"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:paddingTop="10dp" />
+
+                    </TableRow>
+                </TableLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

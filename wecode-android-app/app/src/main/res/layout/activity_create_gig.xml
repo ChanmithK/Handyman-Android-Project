@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_create_gig"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateGig">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ui.home.HomeFragment">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/navbar">
+
+            <TextView
+                android:id="@+id/r_tv_createGigTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginBottom="27dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/r_tv_createGigTitle"
+                android:textColor="@color/white"
+                android:textSize="45sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintLayout"
+                android:layout_width="match_parent"
+                android:layout_height="601dp"
+                android:background="@drawable/back_trans"
+                app:layout_constraintBottom_toBottomOf="@+id/r_scrollView2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <ScrollView
+                android:id="@+id/r_scrollView2"
+                android:layout_width="match_parent"
+                android:layout_height="574dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/r_tv_createGig_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="40dp"
+                        android:fontFamily="sans-serif"
+                        android:text="@string/r_tv_createGig_title"
+                        android:textColor="#FC6A20"
+                        android:textSize="30sp" />
+
+                    <EditText
+                        android:id="@+id/r_et_crateGig_title"
+                        android:layout_width="338dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:background="@drawable/field_gray"
+                        android:ems="10"
+                        android:hint="@string/r_et_crateGig_title"
+                        android:importantForAutofill="no"
+                        android:inputType="textPersonName"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="1dp"
+                        android:paddingEnd="1dp"
+                        android:paddingStart="20dp" />
+
+                    <TextView
+                        android:id="@+id/r_tv_crateGig_category"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="sans-serif"
+                        android:text="@string/r_tv_crateGig_category"
+                        android:textColor="#FC6A20"
+                        android:textSize="30sp" />
+
+                    <Spinner
+                        android:id="@+id/r_spin_createGig_category"
+                        android:layout_width="267dp"
+                        android:layout_height="37dp"
+                        android:layout_margin="16dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:background="@drawable/rectt"
+                        android:entries="@array/Gig_category"/>
+
+                    <TextView
+                        android:id="@+id/r_tv_crateGig_description"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="sans-serif"
+                        android:text="@string/r_tv_crateGig_description"
+                        android:textColor="#FC6A20"
+                        android:textSize="30sp" />
+
+                    <EditText
+                        android:id="@+id/r_et_crateGig_description"
+                        android:layout_width="357dp"
+                        android:layout_height="97dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:background="@drawable/field_gray"
+                        android:ems="10"
+                        android:gravity="top"
+                        android:hint="@string/r_et_crateGig_description"
+                        android:inputType="textMultiLine|textCapSentences"
+                        android:paddingLeft="20dp"
+                        android:paddingTop="15dp"
+                        android:importantForAutofill="no"
+                        android:paddingStart="20dp" />
+
+                    <TextView
+                        android:id="@+id/r_tv_crateGig_location"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="sans-serif"
+                        android:text="@string/r_tv_crateGig_category"
+                        android:textColor="#FC6A20"
+                        android:textSize="30sp" />
+
+                    <Spinner
+                        android:id="@+id/r_spin_createGig_loation"
+                        android:layout_width="267dp"
+                        android:layout_height="37dp"
+                        android:layout_margin="16dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:background="@drawable/rectt"
+                        android:entries="@array/location_spinner"/>
+
+                    <Button
+                        android:id="@+id/r_btn_createGig_create"
+                        android:layout_width="379dp"
+                        android:layout_height="47dp"
+                        android:layout_marginStart="13dp"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/fields"
+                        android:fontFamily="sans-serif-black"
+                        android:onClick="saveGig"
+                        android:text="@string/r_btn_createGig_create"
+                        app:backgroundTint="@color/Orange" />
+
+
+
+                </LinearLayout>
+            </ScrollView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

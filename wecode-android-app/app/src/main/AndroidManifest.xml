@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.handyman_android_app">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Handymanandroidapp">
+        <activity android:name=".Calculator"></activity>
+        <activity android:name=".p_done_response" />
+        <activity android:name=".TechnicialHome" />
+        <activity android:name=".n_view_request_service" /> <!-- <activity android:name=".n_view_gig"/> -->
+        <activity android:name=".n_request_services" />
+        <activity android:name=".p_edit_response" />
+        <activity android:name=".GigsActivity" /> <!-- <activity android:name=".loginActivity"></activity> -->
+        <activity android:name=".MainActivity" /> <!-- <activity android:name=".p_edit_response" /> -->
+        <activity android:name=".p_view_response" />
+        <activity android:name=".p_view_request" />
+        <activity android:name=".p_make_response" /> <!-- <activity android:name=".loginActivity" /> -->
+        <activity android:name=".CreateGig" /> <!-- <activity android:name=".GigsActivity" /> &lt;!&ndash; <activity android:name=".loginActivity"></activity> &ndash;&gt; -->
+        <!-- <activity android:name=".p_make_response" /> -->
+        <!-- <activity android:name=".CreateGig"></activity> -->
+        <!-- <activity android:name=".loginActivity"></activity> -->
+        <!-- <activity  android:name=".p_make_response" /> -->
+        <activity android:name=".signupActivity" /> <!-- <activity -->
+        <!-- <activity android:name=".signupActivity" /> -->
+        <!-- &lt;!&ndash;        <activity&ndash;&gt; -->
+        <!-- android:name=".n_view_gig" -->
+        <!-- android:name=".p_make_response" -->
+        <activity android:name=".p_update_response" /> <!-- <activity android:name=".GigsActivity" /> &lt;!&ndash; <activity android:name=".loginActivity"></activity> &ndash;&gt; -->
+        <!-- <activity android:name=".p_edit_response" /> -->
+        <!-- <activity android:name=".p_view_response" /> -->
+        <!-- <activity android:name=".p_view_request" /> &lt;!&ndash; <activity android:name=".p_make_response" /> &ndash;&gt; -->
+        <!-- <activity android:name=".CreateGig" /> &lt;!&ndash; <activity android:name=".loginActivity"></activity> &ndash;&gt; -->
+        <!-- <activity android:name=".p_make_response" /> -->
+        <!-- <activity android:name=".signupActivity" /> -->
+        <activity
+            android:name=".loginActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Handymanandroidapp.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

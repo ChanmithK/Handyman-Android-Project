@@ -1,0 +1,2 @@
+rootProject.name = "handyman-android-app"
+include ':app'

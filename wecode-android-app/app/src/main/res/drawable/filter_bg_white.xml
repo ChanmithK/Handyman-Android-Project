@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <layer-list>
+            <item>
+                <shape>
+                    <solid android:color="@color/Orange">
+                    </solid>
+                    <corners android:radius="15dp"></corners>
+                </shape>
+            </item>
+            <item android:right="2dp">
+                <bitmap
+                    android:gravity="center_vertical|right"
+                    android:src="@drawable/filter_icon"/>
+            </item>
+        </layer-list>
+
+    </item>
+</selector>
